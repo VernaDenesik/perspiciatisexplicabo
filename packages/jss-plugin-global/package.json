@@ -1,0 +1,50 @@
+{
+  "name": "jss-plugin-global",
+  "description": "Global styles for JSS",
+  "version": "10.0.0-alpha.8",
+  "license": "MIT",
+  "homepage": "https://cssinjs.org/jss-global",
+  "main": "dist/jss-plugin-global.cjs.js",
+  "module": "dist/jss-plugin-global.esm.js",
+  "unpkg": "dist/jss-plugin-global.bundle.js",
+  "typings": "./src/index.d.ts",
+  "author": {
+    "name": "Oleg Isonen (Slobodskoi)",
+    "email": "oleg008@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssinjs/jss"
+  },
+  "bugs": {
+    "url": "https://github.com/cssinjs/jss/issues/new?title=[jss-plugin-global]"
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cssinjs",
+    "css-in-js",
+    "css in js",
+    "jss",
+    "plugin",
+    "global",
+    "unscoped"
+  ],
+  "scripts": {
+    "prepare": "node ../../scripts/build.js",
+    "check-snapshot": "node ../../scripts/match-snapshot.js"
+  },
+  "peerDependencies": {
+    "jss": "^10.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "jss": "^10.0.0-alpha.8",
+    "jss-plugin-nested": "^10.0.0-alpha.8"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0"
+  }
+}

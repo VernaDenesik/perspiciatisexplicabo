@@ -1,0 +1,31 @@
+{
+  "dist/jss-plugin-vendor-prefixer.js": {
+    "bundled": 27516,
+    "minified": 9614,
+    "gzipped": 2634
+  },
+  "dist/jss-plugin-vendor-prefixer.min.js": {
+    "bundled": 27516,
+    "minified": 9614,
+    "gzipped": 2634
+  },
+  "dist/jss-plugin-vendor-prefixer.cjs.js": {
+    "bundled": 1375,
+    "minified": 627,
+    "gzipped": 360
+  },
+  "dist/jss-plugin-vendor-prefixer.esm.js": {
+    "bundled": 1325,
+    "minified": 574,
+    "gzipped": 319,
+    "treeshaked": {
+      "rollup": {
+        "code": 31,
+        "import_statements": 31
+      },
+      "webpack": {
+        "code": 1048
+      }
+    }
+  }
+}
